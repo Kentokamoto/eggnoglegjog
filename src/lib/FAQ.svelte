@@ -1,6 +1,6 @@
 <script>
 	import Accordion from './Accordion.svelte';
-	let {faqs} = $props()
+	let { faqs } = $props();
 </script>
 
 <div class="flex w-full flex-col place-content-center sm:flex-row">

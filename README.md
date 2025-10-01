@@ -1,15 +1,11 @@
 # Seattle Eggnog Leg Jog
 
-A SvelteKit web application for the First Annual Seattle Eggnog Leg Jog - a unique running event that combines a half marathon with pizza eating at local Seattle pizza joints.
+A SvelteKit web application for the First Annual Seattle Eggnog Leg Jog - a unique running event
+that combines a half marathon with pizza eating at local Seattle pizza joints.
 
 ## Description
 
-The Seattle Eggnog Leg Jog is a one-of-a-kind running event where participants run a half marathon distance while stopping at local pizza-by-the-slice places along the way. The event features:
-
-- **Half Marathon Distance**: 13.1 miles through Seattle
-- **Pizza Checkpoints**: Multiple stops at local pizza joints
-- **Selfie Verification**: Participants take photos with their pizza slices
-- **Charity Component**: Optional donations to pizza-related charities
+- **10k distance**: 6.2 miles through Greenlake
 - **Community Event**: A fun, social running experience
 
 The webapp provides event information, registration, FAQ, route details, and countdown to the event.
@@ -23,17 +19,20 @@ The webapp provides event information, registration, FAQ, route details, and cou
 ## Install
 
 1. **Clone the repository**:
+
    ```bash
    git clone <repository-url>
-   cd slice-a-thon
+   cd eggnoglegjog
    ```
 
 2. **Install dependencies**:
+
    ```bash
    npm install
    ```
-   
+
    Or using bun (faster alternative):
+
    ```bash
    bun install
    ```
@@ -41,11 +40,13 @@ The webapp provides event information, registration, FAQ, route details, and cou
 ## Running Locally
 
 1. **Start the development server**:
+
    ```bash
    npm run dev
    ```
-   
+
    Or with bun:
+
    ```bash
    bun run dev
    ```
@@ -53,6 +54,7 @@ The webapp provides event information, registration, FAQ, route details, and cou
 2. **Open your browser** and navigate to `http://localhost:5173`
 
 3. **Build for production**:
+
    ```bash
    npm run build
    ```
@@ -100,16 +102,13 @@ src/
 ├── routes/                # Page routes
 │   ├── +layout.svelte     # Main layout
 │   ├── +page.svelte       # Home page
-│   ├── eggnog/            # Eggnog Leg Jog page
-│   ├── race-day-details/  # Race day information
-│   ├── taco/              # Taco page
-│   └── thank-you/         # Thank you page
 └── app.html               # HTML template
 ```
 
 ## Deployment
-The application is meant to be deployed to GitHub Pages as a static site. 
-Use the [GitHub Workflow](./.github/workflows/deploy.yml) to deploy
+
+The application is meant to be deployed to GitHub Pages as a static site. Use the
+[GitHub Workflow](./.github/workflows/deploy.yml) to deploy
 
 ## License
 
