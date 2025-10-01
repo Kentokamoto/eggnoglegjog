@@ -5,7 +5,7 @@
 </script>
 
 <a href="{base}/">
-	<header class="bg-holiday-red flex w-full flex-row">
+	<header class="bg-holiday-red flex w-full flex-row p-2">
 		<img
 			class="m-1 w-12 flex-none place-content-center object-scale-down"
 			src={mascotThumb}
