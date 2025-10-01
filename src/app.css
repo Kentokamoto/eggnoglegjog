@@ -1,9 +1,11 @@
 @import 'tailwindcss';
 @theme {
-	--color-eggnog-cream: ##fef5cf;
-	--color-gingerbread: ##e38a11;
-	--color-holiday-green: ##5b863b;
-	--color-holiday-red: ##f63a1c;
+	--color-eggnog-cream: #fef5cf;
+	--color-gingerbread: #e38a11;
+	--color-holiday-green: #5b863b;
+	--color-holiday-red: #f63a1c;
+  --color-snow: #f1f0ed;
+  --color-ornament-green: #314143;
 }
 
 @font-face {
@@ -24,7 +26,7 @@
 }
 
 body {
-	background-color: #f8efd9;
+	background-color: #fef5cf;
 	color: #000000;
 	margin: 0;
 	display: flex;

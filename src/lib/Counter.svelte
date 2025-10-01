@@ -15,7 +15,7 @@
 </script>
 
 <div>
-	<div class="bg-holiday-red flex flex-row place-content-center py-2 text-white">
+	<div class="bg-holiday-green flex flex-row place-content-center py-2 text-white">
 		<div class="px-2 text-center sm:px-10">
 			<h1>{days}</h1>
 			<h1>Days</h1>

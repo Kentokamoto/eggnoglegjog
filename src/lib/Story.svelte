@@ -2,8 +2,8 @@
 	let { storyTitle, storyParagraphs } = $props();
 </script>
 
-<article class="text-black">
-	<h1 class="text-red-sauce mt-5 text-center text-2xl font-bold sm:text-left">
+<article class="text-ornament-green">
+	<h1 class="text-ornament-green mt-5 text-center text-2xl font-bold sm:text-left">
 		{storyTitle}
 	</h1>
 	{#each storyParagraphs as paragraph, index (index)}

@@ -16,7 +16,7 @@
 
 <div class="my-4 flex w-full flex-col place-content-center sm:flex-row">
 	<section class="flex basis-full flex-col place-content-center p-4 sm:p-0">
-		<h1 class="text-red-sauce text-center text-2xl font-bold">Register Here</h1>
+		<h1 class="text-ornament-green text-center text-2xl font-bold">Register Here</h1>
 		{@render children()}
 	</section>
 </div>

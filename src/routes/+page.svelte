@@ -14,12 +14,12 @@
 
 	import { base } from '$app/paths';
 	const mailtoLink = `<a href="mailto:seattlesliceathon@gmail.com"
-	                       class="text-red-sauce hover:text-red-700 underline">
+	                       class="text-holiday-red hover:text-red-700 underline">
 						   seattlesliceathon@gmail.com
 						</a>`;
 	const gpxLink = `<a href="${base}/Seattle-Slice-a-Thon-2025.gpx"
-	                 	class="text-red-sauce hover:text-red-700 underline">
-						Slice-A-Thon route
+	                 	class="text-holiday-red hover:text-red-700 underline">
+						Eggnog Leg Jog route
 					</a>`;
 
 	const faqs = [''];
@@ -43,9 +43,9 @@
 			<div
 				class="strava-embed-placeholder"
 				data-embed-type="route"
-				data-embed-id="3356103777858949274"
+				data-embed-id="3406145129692623686"
 				data-style="standard"
-				data-map-hash="11.08/47.6303/-122.3237"
+				data-map-hash="12.41/47.675/-122.34166"
 				data-from-embed="true"
 			></div>
 		</Details>
@@ -56,7 +56,7 @@
 				title="2025 Slice-A-Thon Registration"
 				allowtransparency
 				allow=""
-				src="https://form.jotform.com/250816626970059"
+				src="https://form.jotform.com/252468546155161"
 				frameborder="0"
 				style="border:none;"
 				scrolling="no"

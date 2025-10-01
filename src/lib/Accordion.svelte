@@ -2,9 +2,9 @@
 	let { title, content } = $props();
 </script>
 
-<details class="border-yellow-cheese group mt-2 flex w-full flex-col rounded-lg border px-5 py-3">
+<details class="border-ornament-green group mt-2 flex w-full flex-col rounded-lg border px-5 py-3">
 	<summary
-		class="text-red-sauce flex w-full flex-15 cursor-pointer list-none items-center justify-between text-left font-bold"
+		class="text-ornament-green flex w-full flex-15 cursor-pointer list-none items-center justify-between text-left font-bold"
 	>
 		{title}
 		<div>
