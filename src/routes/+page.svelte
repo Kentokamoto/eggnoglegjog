@@ -35,8 +35,31 @@
 						Eggnog Leg Jog route
 					</a>`;
 
-	const faqs = [''];
+	const faqs = [
+		{
+			title: 'Can I invite my friends?',
+			description: `Absolutely, the more the merrier. Just make sure they
+                    register here so we can get an accurate head count.`
+		},
 
+		{
+			title: 'Can I invite my friends?',
+			description: `We will have four holiday cheer stations throughout 
+                    the race stocked with hristmas cookies, apple cider,
+                    latkas, egg nog, and other holiday treats. 
+`
+		},
+		{
+			title: 'Can I invite my friends?',
+			description: `Absolutely, the more the merrier. Just make sure they
+                    register here so we can get an accurate head count.`
+		},
+		{
+			title: 'Can I invite my friends?',
+			description: `Absolutely, the more the merrier. Just make sure they
+                    register here so we can get an accurate head count.`
+		}
+	];
 	// JotForm
 	let jotformIframeId = 'JotFormIFrame-250816626970059';
 </script>
