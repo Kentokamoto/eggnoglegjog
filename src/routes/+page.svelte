@@ -33,10 +33,9 @@
 	const instagramLink = `<a href=" https://www.instagram.com/slice_enterprises/"
 	                       class="text-holiday-red hover:text-red-700 underline">
                          https://www.instagram.com/slice_enterprises/</a>`;
-	const gpxLink = `<a href="${base}/Seattle-Slice-a-Thon-2025.gpx"
-	                 	class="text-holiday-red hover:text-red-700 underline">
-						Eggnog Leg Jog route
-					</a>`;
+	const gpxLink = `<a href="${base}/Eggnog-Leg-Jog-2025.gpx"
+	                 class="text-holiday-red hover:text-red-700 underline"
+                   >Eggnog Leg Jog route</a>`;
 
 	const faqs = [
 		{
@@ -75,10 +74,10 @@
 			title: 'Is the course marked? ',
 			description: `We will send out the Strava course route in advance of the race and
                     will have volunteers at key turns.\n
+                    You can download the GPX file here (${gpxLink}).\n
                     We will also have four pace groups, each with pacers who know the 
                     route and can lead the way. The pace groups will be from fastest to 
-                    funnest; 1) Reindeer 2) Dreidel 3) Turkey and 4) Snowman
-`
+                    funnest; 1) Reindeer 2) Dreidel 3) Turkey and 4) Snowman`
 		},
 		{
 			title: 'How many people will be doing this? ',
