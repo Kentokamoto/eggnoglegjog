@@ -137,7 +137,7 @@
 		<Registration iframeId={jotformIframeId}>
 			<iframe
 				id="JotFormIFrame-250816626970059"
-				title="2025 Slice-A-Thon Registration"
+				title="2025 Eggnog Leg Jog Registration"
 				allowtransparency
 				allow=""
 				src="https://form.jotform.com/252468546155161"
