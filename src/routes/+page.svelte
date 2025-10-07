@@ -7,8 +7,8 @@
 	import Counter from '$lib/Counter.svelte';
 
 	// Placeholders:
-	const eventDate = new Date('November 15, 2025 10:00 AM PDT');
-	const eventLocation = 'Lower Woodland Park Shelter';
+	const eventDate = new Date('November 15, 2025 10:00 AM PST');
+	const eventLocation = 'Lower Woodland Park Shelter 7';
 	const storyTitle = 'Eggnog Leg Jog';
 	const storyParagraphs = [
 		`The Egg Nog Leg Jog is the world’s first race that not only tests your physical fitness, 
@@ -16,13 +16,13 @@
      race, like the Seattle Marathon or CIM? Are you preparing for a cross-country flight to 
      celebrate traditions with family on the east coast? Are you gearing up to enjoy numerous 
      Thanksgiving/Christmas/Hanukkah parties, right here in Seattle? Nothing is going to 
-    prepare you for  all of the holiday magiclike the Egg Nog Leg Jog. `,
+    prepare you for all of the holiday magic like the Egg Nog Leg Jog. `,
 		`This 10K on November 15th will be run by 100+ family, friends, and soon to be friends. 
-     Bring your best holiday themed costume (ie Santa / Scrooge / Menorah) or favorite  Christmas 
+     Bring your best holiday themed costume (ie Santa / Scrooge / Menorah) or favorite Christmas 
      sweater and join us at Woodland Park for a festive Leg Jog. We’ll run through Greenlake and
-     Woodland Park,  stopping at four  holiday cheer stations along the way to consume cookies, 
+     Woodland Park, stopping at four holiday cheer stations along the way to consume cookies, 
      egg nog and other classic holiday treats, which will warm your body and grow your heart at 
-     least three sizes.  `
+     least three sizes.`
 	];
 
 	import { base } from '$app/paths';
